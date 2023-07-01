@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "CommonJS",
+    "outDir": "./dist" /* Redirect output structure to the directory. */,
+    "inlineSourceMap": true /* Emit a single file with source maps instead of having a separate file. */,
+    "strict": false,
+    "strictNullChecks": false /* Enable strict null checks. */,
+    "noImplicitReturns": true /* Report error when not all code paths in function return a value. */,
+    "noFallthroughCasesInSwitch": true /* Report errors for fallthrough cases in switch statement. */,
+    // "esModuleInterop": true,
+    "allowSyntheticDefaultImports":true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "moduleResolution": "node", /* Default is Node for --module common.js. Sometimes it is required to specify for Typescript projects to resolve cannot import module errors */
+    "allowJs": true /* Required to include proto-generated files */,
+    "resolveJsonModule":true
+  },
+  "exclude": [
+    "node_modules/**/*",
+    "dist",
+    "test"
+  ]
+}
